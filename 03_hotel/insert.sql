@@ -16,6 +16,7 @@ INSERT INTO Hotel (ID_hotel, name, location) VALUES
 -- ======================
 -- Вставка данных в таблицу Room
 -- ======================
+INSERT INTO Room (ID_room, ID_hotel, room_type, price, capacity) VALUES
 (1, 1, 'Single', 150.00, 1),
 (2, 1, 'Double', 200.00, 2),
 (3, 1, 'Suite', 350.00, 4),
